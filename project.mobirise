@@ -160,7 +160,7 @@
             "autoplay": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "timeout": "4",
+            "timeout": "7",
             "slides": [
               {
                 "active": false,
@@ -196,7 +196,7 @@
                 "active": true,
                 "image": "@THEME_PATH@/components/_images/slider/slider03.jpg",
                 "playVideo": true,
-                "videoUrl": "https://youtu.be/xIRo-nOyOlc",
+                "videoUrl": "https://youtu.be/oIeBf1MYFIY",
                 "overlay": true,
                 "overlayOpacity": "0.3",
                 "contentAlign": "center",
@@ -312,7 +312,7 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.8",
-            "overlayColor": "#455c97",
+            "overlayColor": "#424242",
             "showHeading": false,
             "contentAlign": "center",
             "showTitle": true,
@@ -405,7 +405,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333.jpg",
-            "bgColor": "#dfd9ca",
+            "bgColor": "#fffcf6",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
@@ -725,7 +725,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo3.png",
+              "src": "@PROJECT_PATH@/assets/images/logo5.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com"
