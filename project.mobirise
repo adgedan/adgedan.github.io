@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Tomeg",
+    "name": "justdetect",
     "currentPage": "index.html",
     "theme": {
       "name": "directm",
@@ -9,20 +9,24 @@
         "primaryColor": "#5aac98",
         "secondaryColor": "#A25DAE",
         "successColor": "#1E7C3A",
-        "infoColor": "#74a3c7",
+        "infoColor": "#dbae54",
         "warningColor": "#FFD785",
         "dangerColor": "#FF9685",
-        "titleFont": "Oxygen",
-        "subtitleFont": "Libre Franklin",
-        "textFont": "Libre Franklin",
+        "titleFont": "Droid Sans",
+        "subtitleFont": "Open Sans",
+        "textFont": "Source Sans Pro",
         "isRoundedButtons": false,
-        "isAnimatedOnScroll": false,
+        "isAnimatedOnScroll": true,
         "isScrollToTopButton": false
       }
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 1,
-    "versionPublish": "3.10.4"
+    "uniqCompNum": 26,
+    "versionPublish": "3.11.1",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": ""
   },
   "pages": {
     "index.html": {
@@ -41,51 +45,52 @@
               "display": "none !important"
             },
             ".navbar-toggler": {
-              "color": "#74a3c7"
+              "color": "#5aac98"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#74a3c7"
+              "background-color": "#5aac98"
             },
             ".link, .dropdown-item": {
-              "color": "#74a3c7",
-              "font-family": "'Libre Franklin', serif"
+              "color": "#5aac98",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             },
             ".link": {
-              "font-size": "0.8125rem"
+              "font-size": "0.95rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.880rem"
+              "font-size": "1.029rem"
             },
             ".link:hover, .link:focus": {
-              "color": "@primaryColor"
+              "color": "#bdb39a"
             },
             ".dropdown-item:hover::before, .dropdown-item:focus::before": {
-              "background": "@primaryColor"
+              "background": "#bdb39a"
             },
             ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#74a3c7"
+              "color": "#5aac98"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#ffffff"
+              "background": "#fffffd"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
+              "background": "#ffffee!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#fff"
+              "background": "#fffffd"
             },
             ".bg-color.transparent .link": {
-              "color": "#74a3c7",
+              "color": "#5aac98",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
               "transition": "color .2s ease-in-out"
             },
             ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
+              "color": "#bdb39a"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#5aac98!important"
+              "color": "#bdb39a!important"
             }
           },
           "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
@@ -95,27 +100,650 @@
           "_name": "menu1",
           "_anchor": "menu1-0",
           "_params": {
-            "bgColor": "#fff",
-            "fontSize": 0.8125,
+            "bgColor": "#fffffd",
+            "fontSize": "0.95",
             "imageSize": 4,
             "fontName": {
-              "name": "Libre Franklin",
-              "css": "'Libre Franklin', serif",
-              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
+              "name": "Open Sans",
+              "css": "'Open Sans', sans-serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             },
-            "fontColor": "#74a3c7",
-            "fontHoverColor": "@primaryColor",
+            "fontColor": "#5aac98",
+            "fontHoverColor": "#bdb39a",
             "transparent": false,
             "sticky": true,
             "logo": true,
-            "showBrand": true,
+            "showBrand": false,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/just-detect-web-logo-167x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">justdetect.co.uk</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ABOUT</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">BENEFITS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Q&amp;A</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">REGISTER</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-text": {
+              "font-size": "30px"
+            }
+          },
+          "arrowleft": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-left.png\">",
+          "arrowright": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-right.png\">",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/slider01.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": false,
+                "overlayOpacity": "0.1",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "JUST DETECT",
+                "showText": true,
+                "text": "Providing land owners a simple solution in granting search permissions to trusted and approved NCMD members within the UK. &nbsp;",
+                "showButtons": true,
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#features22-e\" data-toolbar=\"-mbrBtnMove\">Find out more</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slider02.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": true,
+                "overlayOpacity": "0.2",
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "IMAGE SLIDE",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/slider03.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": true,
+                "overlayOpacity": "0.3",
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "VIDEO SLIDE",
+                "showText": true,
+                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slider04.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": false,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "FULL SCREEN SLIDER",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slider05.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": true,
+                "overlayOpacity": "0.5",
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "IMAGE SLIDE",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider-5",
+          "articleLayout": false
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-title": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "color": "#5aac98"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-9",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "containerColor1": "#fffffd",
+            "containerColor2": "#fffffd",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.95,
+            "overlayColor": "#000000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "title": "How does it work...?",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a>"
+        },
+        {
+          "subtitle1": "Awesome",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "subtitle2": "Awesome",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "subtitle3": "Awesome",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "subtitle4": "Awesome",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features22",
+          "_styles": {
+            ".card .mbr-iconfont": {
+              "background": "#5aac98",
+              "border-color": "#5aac98"
+            },
+            ".heading-title": {
+              "font-size": "60px"
+            },
+            ".card-title": {
+              "font-size": "30px"
+            },
+            ".card-text": {
+              "color": "#fffffd"
+            },
+            ".card-title B": {
+              "color": "#fffffd",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "features22-e",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 1,
+            "iconsBgColor": "#5aac98",
+            "containerColor1": "#fff",
+            "containerColor2": "#f5f5f5",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-5-2000x1333.jpg",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#455c97",
+            "showHeading": false,
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "columns": "4"
+          },
+          "title": "So how does it work...?",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a><a data-app-btn=\"true\" class=\"btn btn-lg btn-empty\" href=\"https://mobirise.com\">Or view demo</a>",
+          "title1": "<b>Register your details for FREE</b>",
+          "text1": "Give a brief description of the land you wish to be detected and any possible finds that may be of interest to the detectorist. Also if possible upload an image of the site to give an idea of the terrain or landscape to be detected. YOUR PERSONAL DETAILS OR LOCATION WILL NOT BE VISIBLE ONLINE EVER..! For an example description click <a href=\"http://www.google.co.uk\">here</a>.",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "image-filter-1",
+              "family": "Material-Design-Icons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "color": "#fff"
+            }
+          },
+          "title2": "<b>Appear on justdetect.co.uk</b>",
+          "text2": "Your land to search submission will verified by justdetect.co.uk and once approved added to our website. justdig members can now view by region and request search dates/times at your discretion via our webite which will send the details within an email where you can either accept or decline or offer suitable dates.",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "image-filter-2",
+              "family": "Material-Design-Icons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "color": "#fff"
+            }
+          },
+          "title3": "<b>Approval &amp; Payment</b>",
+          "text3": "Once you accept the chosen dates a secure payment request will be emailed by us to the justdetect.co.uk member who has to make an online payment to us 24 hrs prior to arriving on the chosen date(s). Once the funds have cleared (usually we allow 24hrs) the total amount will be transferred directly into your chosen bank or Paypal account.",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "image-filter-3",
+              "family": "Material-Design-Icons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "color": "#fff"
+            }
+          },
+          "title4": "<b>Justdetect.co.uk member review</b>",
+          "text4": "Once you have received your payment confirmation email you will be asked to review the justdetect.co.uk member by giving a 1-5 star rating and short comment on his visit. This not only enables you to confirm the laws and strict guidelines that are set out by justdetect.co.uk are met but also to help build a level of trust to other fellow land owners. This rating will help encourage and continue good practice and discipline within the detecting community and remove the unwanted abusers from the system.",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "image-filter-4",
+              "family": "Material-Design-Icons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "color": "#fff"
+            }
+          }
+        },
+        {
+          "_styles": {
+            "H1": {
+              "color": "#333333"
+            },
+            ".round-text B": {
+              "font-size": "72px"
+            },
+            "SPAN": {
+              "color": "#424242",
+              "font-size": "46px",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            },
+            "LI": {
+              "color": "#616161"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-f",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#000",
+            "showTitle": false,
+            "inverse": true,
+            "showSubTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "Features",
+          "roundBlockText": "Land owners<br><b>FREE</b><br>Registration",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/landowner-1-433x576.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "pencil",
+              "link": "#modalWindow",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title2": "Land owner benefits",
+          "text": "<li>Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.</li><br><li>Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.</li><br><li>Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</li>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Register here</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "font-size": "21px"
+            },
+            "I": {
+              "font-size": "24px",
+              "color": "#616161"
+            }
+          },
+          "_anchor": "content2-c",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#dfd9ca"
+          },
+          "text": "<i>\"Metal detecting is not about getting rich, it's about helping to find our true history as a country and at the same having a healthy and active hobby...\"</i>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "toggle1",
+          "_anchor": "toggle1-g",
+          "_params": {
+            "tabs": "6",
+            "collapseAll": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#2d2d2d",
+            "showTitle": true,
+            "showText": false
+          },
+          "title": "FAQ for Land Owners",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
+          "title1": "<a role=\"button\" class=\"text-primary collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOnetoggle1-g\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><b><span class=\"sign\"></span>What about Insurance?</b></a>",
+          "text1": "<p>All members of justdetect.co.uk have to be a registered member of the National Council For Metal Detecting (NCMD) who's members come with Public Liability insurance, Product liabilit and Proffessional Indemnity. For more details click <a href=\"http://www.ncmd.co.uk/liability%20insurance.htm\" target=\"_blank\">here</a>.</p>",
+          "title2": "<a role=\"button\" class=\"text-primary collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseTwotoggle1-g\" aria-expanded=\"false\" aria-controls=\"collapseTwo\"><b>Is my information safe?</b></a>",
+          "text2": "<p>justdetect.co.uk operates entirely over SSL, using 256-bit encryption.  All sensitive personal information is encrypted and stored in a Payment Card Industry Data Security Standard (PCI DSS) Compliant environment.  Your funds are always held by our FDIC-insured partner bank, so your money is never at risk. We also closely monitor account access for suspicious activity to detect account compromises before they occur.</p>",
+          "title3": "<a role=\"button\" class=\"text-primary\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseThreetoggle1-g\" aria-expanded=\"true\" aria-controls=\"collapseThree\"><b>What happens to items found?</b></a>",
+          "text3": "<p>While reports of record hauls of treasure such as a £3.28 million find in Staffordshire and the £1 million find on an Aylesbury farm may inspire you to buy a metal detector and start searching for gold, there are a number of laws governing treasure finds that will affect the amount of money you receive.</p><p>The most you’ll ever receive is half the value of the haul, unless of course you’re the landowner as well as the person who found the treasure.</p><p>Why? Because all land belongs to someone and normally the proceeds of any discovery are split 50/50 between the finder and the landowner.</p><p>But it’s not simply a case of finding a pot full of gold coins, selling them to the highest bidder and pocketing the cash. The laws around metal detector finds are much more complicated, due to the introduction of the Treasure Act 1996.</p><p>The Act declares that any ‘treasure’ must be reported to the local coroner within 14 days of the find. If you don’t then you could forfeit any right to a reward for finding treasure if it isn’t reported properly, receive a reduced reward, be fined, imprisoned or, as in the case of a hoard of coins seized in Shropshire, a find could become the property of the Crown.</p><p>Once a find is reported, the coroner will then conduct an investigation to decide whether a hoard constitutes ‘treasure’ or not. If it is determined to be ‘treasure’ then the treasure valuation committee will set a price for it and the owner is required to offer it up for sale to a museum. If it isn’t purchased by a museum the owner can keep it.</p><p><b>What is the definition of ‘treasure’?</b></p><p>The Portable Antiquities Scheme (PAS) summarises the definition of treasure as set out in the Treasure Act 1996 as:</p><p>- Any metallic object, other than a coin, provided that at least 10 per cent by weight of the metal is precious metal (that is, gold or silver) and that it is at least 300 years old when found. If the object is of prehistoric date, it will be Treasure provided any part of it is precious metal;</p><p>- Any group of two or more metallic objects, of any composition, of prehistoric date, that come from the same find (see below);</p><p>- Two or more coins from the same find provided they are at least 300 years old when found and contain 10 per cent gold or silver (if the coins contain less than 10 per cent of gold or silver there must be at least 10 of them). Only the following groups of coins will normally be regarded as coming from the same find: Hoards that have been deliberately hidden; Smaller groups of coins, such as the contents of purses, that may been dropped or lost; Votive or ritual deposits;</p><p>- Any object, whatever it is made of, that is found in the same place as, or had previously been together with, another object that is Treasure.</p><p>Your local finds liaison officer (you can find their details on the PAS website  can help you to determine whether your find is ‘treasure’ or not.</p><p><b>‘Treasure tax’</b></p><p>If you sell a significant find you’ll be liable to pay capital gains tax (CGT) on any amount that exceeds your annual exempt amount of £11,100. Unless, of course, the hoard consists of British gold sovereigns which, because they are still legal tender, are exempt from CGT.</p><p><b>What about finds that aren’t ‘treasure’?</b></p><p>It’s up to you what you do with anything that’s not claimed by the Crown, or isn’t deemed to be treasure. You may wish to donate the find to a local museum or sell items to a private dealer. The proceeds from the sale should then be distributed as agreed between the landowner and finder.</p><p>Whatever you decide to do with your find, you should report anything of archaeological or historical importance to the Portable Antiquities Scheme, they’ll record the find and pass the information onto the Local Historic Environment Record who will use it to create valuable resources for archaeologists.</p><p><b>Find out more information about the code of practice for responsible metal detecting at the PAS website https://finds.org.uk/getinvolved/guides/codeofpractice</b></p>",
+          "title4": "<a role=\"button\" class=\"text-primary collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFourtoggle1-g\" aria-expanded=\"false\" aria-controls=\"collapseFour\"><b>How do I check a justdetect.co.uk member</b></a>",
+          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title5": "<a role=\"button\" class=\"text-primary\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFivetoggle1-g\" aria-expanded=\"true\" aria-controls=\"collapseFive\"><b>How many people can dig on my land...?</b></a>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title6": "<a role=\"button\" class=\"text-primary\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSixtoggle1-g\" aria-expanded=\"true\" aria-controls=\"collapseSix\"><b>Why is it Free for land owners...?</b></a>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "_styles": {
+            "H1": {
+              "color": "#fffffd"
+            },
+            "P": {
+              "color": "#fffffd"
+            }
+          }
+        },
+        {
+          "subtitle": "Get notified about new amazing products",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "subscribe1",
+          "_styles": {
+            ".form-control-label": {}
+          },
+          "_anchor": "subscribe1-j",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#fffffd",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#f6f7f8",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "Register now for FREE!",
+          "text": "Receive updates on when justdetect.co.uk starts in your area...!<br>*We will NEVER share your data with any other third parties.",
+          "form": {
+            "action": "mrgayler@gmail.com",
+            "alerts": {
+              "success": "Thanks for subscribing to justdetect.co.uk. We will be in touch soon!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email Address...We promise to not share your data."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\">Send</a>"
+        },
+        {
+          "_styles": {
+            ".count": {
+              "color": "#74a3c7"
+            }
+          },
+          "title4": "Videos",
+          "subtitle1": "subtitle",
+          "subtitle2": "subtitle",
+          "subtitle3": "subtitle",
+          "subtitle4": "subtitle",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "counters1",
+          "_anchor": "counters1-h",
+          "_params": {
+            "countersColor": "#74a3c7",
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "containerColor1": "#f7f7f7",
+            "containerColor2": "#f0f0f0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/counters/01.jpg",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#fff",
+            "showTitles": true
+          },
+          "number1": "23",
+          "title1": "Sites to detect",
+          "number2": "258",
+          "title2": "justdetect.co.uk members",
+          "number3": "0",
+          "title3": "Reviews"
+        },
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-l",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 justdetect.co.uk - Contact us"
+        }
+      ]
+    },
+    "contactus.html": {
+      "settings": {
+        "title": "Contact us with your enquiries",
+        "meta_descr": "Information in contacting us regarding land permissions for metal detecting in the UK with justdectect.co.uk"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#fffffd"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#fffffd"
+            },
+            ".link, .dropdown-item": {
+              "color": "#fffffd",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            },
+            ".link": {
+              "font-size": "0.95rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.029rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "#bdb39a"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "#bdb39a"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#fffffd"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#5aac98"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#53a490!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#5aac98"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#fffffd",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#bdb39a"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#bdb39a!important"
+            }
+          },
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-m",
+          "_params": {
+            "bgColor": "#5aac98",
+            "fontSize": "0.95",
+            "imageSize": 4,
+            "fontName": {
+              "name": "Open Sans",
+              "css": "'Open Sans', sans-serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            },
+            "fontColor": "#fffffd",
+            "fontHoverColor": "#bdb39a",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo2.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com"
@@ -126,8 +754,111 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>"
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">justdetect.co.uk</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ABOUT</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">BENEFITS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Q&amp;A</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">REGISTER</a></li>"
+        },
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-n",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 justdetect.co.uk - Contact us"
+        },
+        {
+          "_styles": {
+            ".card": {
+              "background-color": "transparent",
+              "box-shadow": "none",
+              "border": "none"
+            },
+            ".card-img a": {
+              "color": "#616161",
+              "border-color": "#616161",
+              "border-width": "2px",
+              "line-height": "72px"
+            },
+            ".heading": {
+              "background": "#5aac98"
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form3",
+          "_anchor": "form3-p",
+          "_params": {
+            "formBg": "#5aac98",
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/treasure-hunter-2000x1500.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#fffffd",
+            "showHeading": true,
+            "showTitle": true,
+            "showText": true,
+            "formHeader": false,
+            "showCheckbox": false
+          },
+          "title": "Have a question...?",
+          "text": "Complete the form below with your enquiry and we will get back to you shortly. Thank you",
+          "form": {
+            "action": "mrgayler@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, veniam?",
+          "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send message</a>"
         }
       ]
     }
