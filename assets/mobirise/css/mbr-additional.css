@@ -1285,13 +1285,13 @@ body {
   display: none;
 }
 .cid-qIryUUMLRQ .navbar {
-  background: #efefef;
+  background: #767676;
   transition: none;
   min-height: 77px;
   padding: .5rem 0;
 }
 .cid-qIryUUMLRQ .navbar-dropdown.bg-color.transparent.opened {
-  background: #efefef;
+  background: #767676;
 }
 .cid-qIryUUMLRQ a {
   font-style: normal;
@@ -1375,7 +1375,7 @@ body {
   padding-bottom: 0;
 }
 .cid-qIryUUMLRQ .dropdown .dropdown-menu {
-  background: #efefef;
+  background: #767676;
   display: none;
   position: absolute;
   min-width: 5rem;
