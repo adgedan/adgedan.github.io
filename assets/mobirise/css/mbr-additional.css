@@ -5211,7 +5211,8 @@ body {
   background-color: #f8901f;
 }
 .cid-qJcqjsVpTE {
-  background-image: url("../../../assets/images/screen-shot-2018-02-09-at-22.32.49-2000x610.png");
+  background-color: #232323;
+  background: linear-gradient(45deg, #232323, #f8901f);
 }
 .cid-qJcqjsVpTE .media-container-row {
   flex-direction: row-reverse;
@@ -5237,14 +5238,14 @@ body {
   color: #767676;
 }
 .cid-qJcqjsVpTE H3 {
-  color: #767676;
+  color: #cccccc;
 }
 .cid-qJcqjsVpTE .mbr-text,
 .cid-qJcqjsVpTE .mbr-section-btn {
-  color: #767676;
+  color: #efefef;
 }
 .cid-qJcqjsVpTE H1 {
-  color: #f8901f;
+  color: #ffffff;
 }
 .cid-qIryUUMLRQ .navbar {
   background: #767676;
@@ -5708,7 +5709,7 @@ body {
   color: #767676;
 }
 .cid-qJcmC5CZQr {
-  padding-top: 60px;
+  padding-top: 45px;
   padding-bottom: 45px;
   background-color: #232323;
 }
