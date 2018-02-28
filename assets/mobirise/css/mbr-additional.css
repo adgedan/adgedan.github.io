@@ -2609,7 +2609,7 @@ body {
   font-style: italic;
 }
 .cid-qK2U3LXbHk H3 {
-  color: #ffffff;
+  color: #465052;
 }
 .cid-qK2U3LXbHk SPAN {
   color: #ffffff;
@@ -3900,80 +3900,39 @@ body {
   padding-bottom: 120px;
 }
 .cid-qK5fnQPNKy H2 {
-  text-align: center;
+  text-align: right;
+  color: #f8901f;
 }
 .cid-qK5fnQPNKy H3 {
-  text-align: center;
+  text-align: right;
 }
 .cid-qK5fnQPNKy .mbr-text,
 .cid-qK5fnQPNKy .mbr-section-btn {
-  text-align: center;
+  text-align: right;
 }
-.cid-qKRGuwJSee {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
+.cid-qKWHHZUrw2 {
+  background-image: url("../../../assets/images/coco-controls-banner-2000x727.jpg");
 }
-@media (min-width: 992px) {
-  .cid-qKRGuwJSee .mbr-figure {
-    padding-right: 4rem;
-  }
+.cid-qKWHHZUrw2 h1 {
+  color: #616161;
 }
-@media (max-width: 991px) {
-  .cid-qKRGuwJSee .mbr-figure {
-    padding-bottom: 3rem;
-  }
+.cid-qKWHHZUrw2 h2,
+.cid-qKWHHZUrw2 h3,
+.cid-qKWHHZUrw2 p {
+  color: #767676;
 }
-@media (max-width: 767px) {
-  .cid-qKRGuwJSee .mbr-text {
-    text-align: center;
-  }
+.cid-qKWHHZUrw2 .mbr-section-subtitle {
+  font-style: italic;
 }
-.cid-qKRGuwJSee H1 {
+.cid-qKWHHZUrw2 H1 {
+  text-align: left;
   color: #f8901f;
 }
-.cid-qKRGuwJSee .mbr-text,
-.cid-qKRGuwJSee .mbr-section-btn {
-  color: #767676;
+.cid-qKWHHZUrw2 B {
+  color: #f8901f;
 }
-.cid-qKRF4zQlvi {
-  padding-top: 0px;
-  padding-bottom: 90px;
-  background-color: #efefef;
-}
-.cid-qKRF4zQlvi .card-img {
-  background-color: #fff;
-}
-.cid-qKRF4zQlvi .card-box {
-  background-color: #ffffff;
-  padding: 2rem;
-}
-.cid-qKRF4zQlvi h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-}
-.cid-qKRF4zQlvi p {
-  text-align: left;
-}
-.cid-qKRF4zQlvi .mbr-text {
-  color: #767676;
-}
-.cid-qKRF4zQlvi .card-wrapper {
-  height: 100%;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  transition: box-shadow 0.3s;
-}
-.cid-qKRF4zQlvi .card-wrapper:hover {
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s;
-}
-@media (min-width: 992px) {
-  .cid-qKRF4zQlvi .my-col {
-    flex: 0 0 20%;
-    max-width: 20%;
-    padding: 15px;
-  }
+.cid-qKWHHZUrw2 P {
+  color: #5b686b;
 }
 .cid-qK5f0gVEAW {
   padding-top: 30px;
@@ -4046,16 +4005,21 @@ body {
 .cid-qKRH7YrhHm blockquote {
   color: #767676;
 }
-.cid-qK6EQLQYWD {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
+.cid-qKWXHtIe7T {
+  background-image: url("../../../assets/images/pexels-photo-52065-2000x1333.jpg");
 }
-.cid-qK6EQLQYWD .mbr-section-subtitle {
-  color: #767676;
+.cid-qKWXHtIe7T .form-container {
+  transition: all .2s;
+  border: 1px solid #ffffff;
+  padding: 1rem;
 }
-.cid-qK6EQLQYWD .btn {
-  margin: 0 0 .5rem 0;
+.cid-qKWXHtIe7T .input-group-btn {
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .cid-qKWXHtIe7T .content-container {
+    padding-right: 5rem;
+  }
 }
 .cid-qKTGrPH5h3 {
   padding-top: 30px;
