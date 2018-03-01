@@ -2594,76 +2594,73 @@ body {
 .cid-qJCTUE5Xou .dropdown-item:hover {
   color: #f8901f !important;
 }
-.cid-qK2U3LXbHk {
-  background-image: url("../../../assets/images/coco-building-5-2000x1174.png");
-}
-.cid-qK2U3LXbHk h1 {
-  color: #616161;
-}
-.cid-qK2U3LXbHk h2,
-.cid-qK2U3LXbHk h3,
-.cid-qK2U3LXbHk p {
-  color: #767676;
-}
-.cid-qK2U3LXbHk .mbr-section-subtitle {
-  font-style: italic;
-}
-.cid-qK2U3LXbHk H3 {
-  color: #f8901f;
-}
-.cid-qK2U3LXbHk SPAN {
-  color: #ffffff;
-}
-.cid-qK2U3LXbHk B {
-  color: #efefef;
-}
-.cid-qK2U3LXbHk P {
-  text-align: left;
-  color: #efefef;
-}
-.cid-qKRiVr0ohp {
-  padding-top: 45px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
-}
-.cid-qKRiVr0ohp .mbr-text,
-.cid-qKRiVr0ohp blockquote {
-  color: #767676;
-}
-.cid-qK2Zsrtkck {
+.cid-qL4NQmmEGR {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/coco-team-catalogue-small-1417x905.jpg");
+  background-image: url("../../../assets/images/coco-building-5-2000x1174.png");
 }
-.cid-qK2Zsrtkck .media-container-row {
-  flex-direction: row-reverse;
+.cid-qL4NQmmEGR h2 {
+  text-align: left;
+}
+.cid-qL4NQmmEGR h4 {
+  text-align: left;
+  font-weight: 500;
+}
+.cid-qL4NQmmEGR p {
+  color: #767676;
+  text-align: left;
+}
+.cid-qL4NQmmEGR .aside-content {
+  flex-basis: 100%;
+}
+.cid-qL4NQmmEGR .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  word-break: break-word;
+}
+.cid-qL4NQmmEGR .media {
+  margin: initial;
+  align-items: center;
+}
+.cid-qL4NQmmEGR .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.cid-qL4NQmmEGR .card-img {
+  padding-right: 2rem;
+  width: auto;
+}
+.cid-qL4NQmmEGR .card-img span {
+  font-size: 72px;
+  color: #707070;
 }
 @media (min-width: 992px) {
-  .cid-qK2Zsrtkck .mbr-figure {
+  .cid-qL4NQmmEGR .mbr-figure {
     padding-right: 4rem;
-    padding-right: 0;
-    padding-left: 4rem;
   }
 }
 @media (max-width: 991px) {
-  .cid-qK2Zsrtkck .mbr-figure {
-    padding-bottom: 3rem;
+  .cid-qL4NQmmEGR .mbr-figure {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 }
-@media (max-width: 767px) {
-  .cid-qK2Zsrtkck .mbr-text {
-    text-align: center;
+@media (max-width: 300px) {
+  .cid-qL4NQmmEGR .card-img span {
+    font-size: 40px !important;
   }
 }
-.cid-qK2Zsrtkck .mbr-text,
-.cid-qK2Zsrtkck .mbr-section-btn B {
+.cid-qL4NQmmEGR H2 {
   color: #f8901f;
 }
-.cid-qK2Zsrtkck .mbr-text,
-.cid-qK2Zsrtkck .mbr-section-btn {
-  color: #efefef;
+.cid-qL4NQmmEGR .mbr-text {
+  color: #5b686b;
 }
-.cid-qK2Zsrtkck B {
+.cid-qL4NQmmEGR B {
   color: #f8901f;
 }
 .cid-qK32tqqDF3 {
@@ -2740,6 +2737,56 @@ body {
 }
 .cid-qK32tqqDF3 .mbr-section-title B {
   color: #f8901f;
+}
+.cid-qL4Z0rTUAs {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-qK2Zsrtkck {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/coco-team-catalogue-small-1417x905.jpg");
+}
+.cid-qK2Zsrtkck .media-container-row {
+  flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-qK2Zsrtkck .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-qK2Zsrtkck .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-qK2Zsrtkck .mbr-text {
+    text-align: center;
+  }
+}
+.cid-qK2Zsrtkck .mbr-text,
+.cid-qK2Zsrtkck .mbr-section-btn B {
+  color: #f8901f;
+}
+.cid-qK2Zsrtkck .mbr-text,
+.cid-qK2Zsrtkck .mbr-section-btn {
+  color: #efefef;
+}
+.cid-qK2Zsrtkck B {
+  color: #f8901f;
+}
+.cid-qKRiVr0ohp {
+  padding-top: 45px;
+  padding-bottom: 15px;
+  background-color: #efefef;
+}
+.cid-qKRiVr0ohp .mbr-text,
+.cid-qKRiVr0ohp blockquote {
+  color: #767676;
 }
 .cid-qKTGojb1R0 {
   padding-top: 30px;
