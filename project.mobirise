@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Coco Lighting",
-    "currentPage": "soraa.html",
+    "currentPage": "aboutcoco.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1725,6 +1725,9 @@
             },
             "B": {
               "color": "#465052"
+            },
+            "P": {
+              "color": "#465052"
             }
           },
           "_name": "features11",
@@ -1939,8 +1942,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/coco-lighting-1023x390.png",
-                "thumb": "@PROJECT_PATH@/assets/images/coco-lighting-1023x390-800x304.png",
+                "image": "@PROJECT_PATH@/assets/images/coco-controls-1023x390.png",
+                "thumb": "@PROJECT_PATH@/assets/images/coco-controls-1023x390-800x304.png",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
@@ -1951,8 +1954,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/coco-conversions-1023x398.png",
-                "thumb": "@PROJECT_PATH@/assets/images/coco-conversions-1023x398-800x311.png",
+                "image": "@PROJECT_PATH@/assets/images/coco-conversions-1023x390.png",
+                "thumb": "@PROJECT_PATH@/assets/images/coco-conversions-1023x390-800x304.png",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
@@ -1963,8 +1966,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/coco-design-1023x387.png",
-                "thumb": "@PROJECT_PATH@/assets/images/coco-design-1023x387-800x302.png",
+                "image": "@PROJECT_PATH@/assets/images/coco-design-1023x390.png",
+                "thumb": "@PROJECT_PATH@/assets/images/coco-design-1023x390-800x304.png",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
@@ -1975,8 +1978,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/coco-controls-1023x387.png",
-                "thumb": "@PROJECT_PATH@/assets/images/coco-controls-1023x387-800x302.png",
+                "image": "@PROJECT_PATH@/assets/images/coco-lighting-1023x390.png",
+                "thumb": "@PROJECT_PATH@/assets/images/coco-lighting-1023x390-800x304.png",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
