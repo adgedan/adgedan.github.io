@@ -1730,31 +1730,6 @@ body {
 .cid-qK2ybxqZpW .card-img {
   color: #ffffff;
 }
-.cid-qJPcms3cHJ {
-  padding-top: 45px;
-  padding-bottom: 45px;
-  background-color: #efefef;
-}
-.cid-qJPcms3cHJ .line {
-  background-color: #f8901f;
-  color: #f8901f;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-qJPcms3cHJ .section-text {
-  padding: 2rem 0;
-  text-align: center;
-  color: #465052;
-}
-.cid-qJPcms3cHJ .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-qJPcms3cHJ .inner-container {
-    width: 100% !important;
-  }
-}
 .cid-qKW2UBhINl {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1790,6 +1765,31 @@ body {
 .cid-qKRYTXJfAW .mbr-text,
 .cid-qKRYTXJfAW .mbr-section-btn {
   color: #ffffff;
+}
+.cid-qJPcms3cHJ {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #efefef;
+}
+.cid-qJPcms3cHJ .line {
+  background-color: #f8901f;
+  color: #f8901f;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-qJPcms3cHJ .section-text {
+  padding: 2rem 0;
+  text-align: center;
+  color: #465052;
+}
+.cid-qJPcms3cHJ .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-qJPcms3cHJ .inner-container {
+    width: 100% !important;
+  }
 }
 .cid-qKS271ZoxV {
   background-image: url("../../../assets/images/light-design-1559x898.jpg");
