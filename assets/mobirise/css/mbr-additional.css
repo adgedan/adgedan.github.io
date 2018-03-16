@@ -38,7 +38,7 @@ body {
 }
 .display-7 {
   font-family: 'PT Sans', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -672,7 +672,7 @@ a:hover {
   box-shadow: none;
   color: #565656;
   font-family: 'PT Sans', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
@@ -1115,6 +1115,9 @@ body {
   .cid-qMlXK5gh4O .container-fluid {
     padding: 0 1rem;
   }
+}
+.cid-qMlXK5gh4O .mbr-section-title {
+  color: #ffffff;
 }
 .cid-qMlXUujkwp {
   padding-top: 0px;
