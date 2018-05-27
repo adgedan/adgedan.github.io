@@ -2731,14 +2731,9 @@ body {
 .cid-qTfaUqfzeZ .dropdown-item:hover {
   color: #5488c2 !important;
 }
-.cid-qTfuU9lHyt {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #2e2e2e;
-}
 .cid-qTfyHnDRwE {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 120px;
+  padding-bottom: 45px;
   background-image: url("../../../assets/images/proton-box-1104x607.jpg");
 }
 .cid-qTfA3RKIMN {
@@ -2928,6 +2923,11 @@ body {
 }
 .cid-qTfJtlPT4e .btn {
   margin: 0 0 .5rem 0;
+}
+.cid-qTfuU9lHyt {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
 }
 .cid-qTfaUqfzeZ .navbar {
   padding: .5rem 0;
