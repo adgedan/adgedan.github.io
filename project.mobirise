@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "KCL2018",
-    "currentPage": "proton.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -719,13 +719,13 @@
           "_once": false,
           "_params": {
             "slides__autoplay": true,
-            "slides__autoplayInterval": 4000,
+            "slides__autoplayInterval": "5000",
             "slides__showBullets": true,
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/depositphotos-54394629-original-5184x3456-33-2000x1333.jpg",
                 "active": false,
-                "showButtons": false,
+                "showButtons": true,
                 "showText": true,
                 "showTitle": true,
                 "playVideo": false,
@@ -735,14 +735,14 @@
                 "customStyle3": "display-4",
                 "title": "KNIGHT CONTROLS LIMITED",
                 "overlay": true,
-                "contentAlign": "center",
-                "text": "Specialists in BMS HVAC solutions for commercial and <br>industrial businesses throughout the UK.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ABOUT</a> ",
+                "contentAlign": "left",
+                "text": "Specialists in BMS HVAC solutions for commercial and <br>industrial businesses throughout the UK.<br>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-primary\" href=\"proto.html\" data-toolbar=\"-mbrBtnMove\">CONTACY</a> ",
                 "overlayOpacity": "0.2"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/depositphotos-101274984-original-2700x1519-26-2000x1125.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -759,7 +759,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/contactus-935x702-935x702.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
