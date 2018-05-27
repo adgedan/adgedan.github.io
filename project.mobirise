@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "KCL2018",
-    "currentPage": "index.html",
+    "currentPage": "proton.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -2606,7 +2606,7 @@
         }
       ]
     },
-    "page3.html": {
+    "terms.html": {
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "terms",
@@ -3038,7 +3038,7 @@
         }
       ]
     },
-    "page4.html": {
+    "privacy.html": {
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "privacy",
