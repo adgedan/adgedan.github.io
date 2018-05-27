@@ -2011,7 +2011,7 @@ body {
 .cid-qTfn69HkSQ {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #5488c2;
+  background-color: #efefef;
 }
 .cid-qTfn69HkSQ .counter-container {
   color: #767676;
@@ -2034,42 +2034,22 @@ body {
   margin: 5px 10px;
   line-height: 20px;
   transition: all .2s;
-  color: #000000;
-  background: #ffffff;
+  color: #ffffff;
+  background: #5488c2;
   width: 25px;
   height: 25px;
   border-radius: 50%;
   content: '✓';
 }
 .cid-qTfn69HkSQ .mbr-text UL {
-  color: #efefef;
-}
-.cid-qTfojLxwVN {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-@media (min-width: 992px) {
-  .cid-qTfojLxwVN .mbr-figure {
-    padding-right: 4rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-qTfojLxwVN .mbr-figure {
-    padding-bottom: 3rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-qTfojLxwVN .mbr-text {
-    text-align: center;
-  }
-}
-.cid-qTfojLxwVN H1 {
-  color: #5488c2;
-}
-.cid-qTfojLxwVN .mbr-text,
-.cid-qTfojLxwVN .mbr-section-btn {
   color: #767676;
+}
+.cid-qTgyakQ3rp H1 {
+  text-align: left;
+}
+.cid-qTgyakQ3rp .mbr-text,
+.cid-qTgyakQ3rp .mbr-section-btn {
+  text-align: left;
 }
 .cid-qTfu8ha6cI {
   padding-top: 90px;
